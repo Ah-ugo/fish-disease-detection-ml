@@ -1,4 +1,6 @@
+# Alternative requirements for stable deployment
 streamlit>=1.32.0
+tensorflow==2.15.1  # Last stable version with broad Python support
 opencv-python-headless>=4.8.0
 plotly>=5.18.0
 seaborn>=0.13.0
@@ -8,3 +10,4 @@ scikit-learn>=1.3.0
 pillow>=10.0.0
 scikit-image>=0.21.0
 matplotlib>=3.7.0
+protobuf>=3.20.0,<4.0.0
